@@ -26,6 +26,8 @@ set ruler                         " Show cursor position.
 
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
+nnoremap <silent> <Leader>/ :nohlsearch<CR> " Switch Off The Current Search
+
 
 set wrap                          " Turn on line wrapping.
 set scrolloff=3                   " Show 3 lines of context around the cursor.
