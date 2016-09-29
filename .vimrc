@@ -80,3 +80,4 @@ map <leader>tm :tabmove
 
 " Set the clipboard to be the default buffer
  set clipboard=unnamed
+execute pathogen#infect()
